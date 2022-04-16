@@ -1,4 +1,10 @@
-.App {
+.main-navbar {
   display: flex;
   justify-content: center;
+  background-color: #563d7c;
+}
+
+.main-title {
+  color: white;
+  font-size: xx-large;
 }
