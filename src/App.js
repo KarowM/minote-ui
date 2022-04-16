@@ -1,10 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card } from 'react-bootstrap';
+import Note from './Note';
+
 
 function App() {
   return (
-    <div className='main-navbar'>
-      <div className='main-title' href="#home">MiNote</div>
+    <div>
+    <div className='main-navbar main-title'>
+      MiNote
+    </div>
+    <Note />
     </div>
   );
 }
