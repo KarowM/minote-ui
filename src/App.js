@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card } from 'react-bootstrap';
 import Note from './Note';
 
 
@@ -10,7 +9,9 @@ function App() {
     <div className='main-navbar main-title'>
       MiNote
     </div>
+    <div className='notes-container'>
     <Note />
+    </div>
     </div>
   );
 }
